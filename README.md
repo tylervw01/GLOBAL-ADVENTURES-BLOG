@@ -10,7 +10,7 @@ A travel blog showcasing our top 3 favorite cities through stories, attractions,
 
 ## 🌐 Live Site
 
-Coming soon: [https://your-netlify-domain.netlify.app](https://your-netlify-domain.netlify.app)
+- [https://adventures-blog-tfvw.netlify.app/]
 
 ## 👤 Author
 

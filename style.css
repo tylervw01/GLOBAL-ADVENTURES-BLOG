@@ -1,47 +1,6 @@
 body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-
-}
-
-header {
-    background-color: #218a0e;
-    height: 70px;
-    width: 100%;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li {
-    color: #FFFFFF;
-    font-size: 16px;
-}
-
-nav ul li a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background-color: #FF0000;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
 }
