@@ -44,3 +44,37 @@ nav ul li a:hover {
     color:rgb(255, 204, 0);
     text-decoration: underline;
 }
+#photo-gallery {
+    margin: 20px auto;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+#photo-gallery a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+}
+#photo-gallery a:hover {
+    color:rgb(255, 204, 0);
+    text-decoration: underline;
+}
+#newsletter {
+    margin: 20px auto;
+    text-align: center;
+}
+form {
+    margin: 20px auto;
+    text-align: center;
+}
+input[type="email"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}

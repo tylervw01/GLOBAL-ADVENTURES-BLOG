@@ -21,15 +21,34 @@
         <nav>
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="cities.html">CITIES</a></li>
+                <li><a href="cities.html" dropdown="cities">CITIES</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="contact-us.html">CONTACT US</a></li>
             </ul>
         </nav>
-    
-        <section>
+<main>   
+        <section id="photo-gallery">
+            <h2>PHOTO GALLERY</h2>
+                <a href="cities.html">
+                    <img src="images/london.jpg" alt="City 1">
+                </a>
+                <a href="cities.html">
+                    <img src="images/new-york.jpg" alt="City 2">
+                </a>
+                <a href="cities.html">
+                    <img src="images/cape-town.jpg" alt="City 3">
+                </a>
+        </section>
+        <hr>
+        <section id="newsletter">
+            <h2>Subscribe to Our Newsletter:</h2>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
 
         </section>
+</main>
     <script src="script.js"></script>
 </body>
 </html>
