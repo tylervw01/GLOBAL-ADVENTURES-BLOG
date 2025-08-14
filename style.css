@@ -105,3 +105,8 @@ input[type="email"] {
     border-radius: 5px;
     width: 300px;
 }
+
+#landmarks {
+    margin: 20px auto;
+    text-align: center;
+}
