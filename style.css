@@ -21,6 +21,12 @@ p {
     text-align: justify;
     margin: 0 20px;
 }
+.cities {
+    margin-bottom: 5px;
+    padding: 25px;
+    text-align: center;
+    background-color: orange;
+}
 nav {
     background-color:darkgray;
     padding: 10px;
@@ -67,6 +73,7 @@ nav ul li a:hover {
 #photo-gallery {
     margin: 20px auto;
     text-align: center;
+
 }
 img {
     width: 300px;
