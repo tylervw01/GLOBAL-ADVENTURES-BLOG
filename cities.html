@@ -32,6 +32,7 @@
                     </ul> 
                 </li>
                 <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="subscribe.html">SUBSCRIBE</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="contact-us.html">CONTACT US</a></li>
             </ul>
@@ -52,14 +53,21 @@
     </section>
 
     <hr>
-            <section id="newsletter">
-            <h2>Subscribe to Our Newsletter:</h2>
-            <form>
-                <input type="email" placeholder="Enter your email" required>
-                <button type="submit">Subscribe</button>
-            </form>
+    <section id="newsletter">
+        <h1>Stay Updated with Our Adventures!</h1>
+        <p>Subscribe to our newsletter and never miss a story from the road.</p>
+        <form action="/subscribe" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
 
-        </section>
+            <div class="newsletter-consent">
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">I agree to receive email updates and promotions.</label>
+            </div>
+
+            <button type="submit">Subscribe Now</button>
+        </form>
+    </section>
 
 <!--FOOTER-->
 <footer>

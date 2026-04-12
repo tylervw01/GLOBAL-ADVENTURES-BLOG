@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe - Global Adventures Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SUBSCRIBE TO GLOBAL ADVENTURES</h1>
+        <hr>
+        <p>Stay connected with the latest travel stories, updates, and insider tips from our journeys around the world.</p>
+    </header>
+
+    <nav class="cities">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li class="dropdown">
+                <a href="cities.html">CITIES &#x25BE</a>
+                <ul class="dropdown-content">
+                    <li><a href="london.html">LONDON</a></li>
+                    <li><a href="new-york.html">NEW YORK</a></li>
+                    <li><a href="cape-town.html">CAPE TOWN</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="subscribe.html">SUBSCRIBE</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact-us.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="newsletter">
+            <h1>Stay Updated with Our Adventures!</h1>
+            <p>Subscribe to our newsletter and never miss a story from the road.</p>
+            <form action="/subscribe" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <div class="newsletter-consent">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">I agree to receive email updates and promotions.</label>
+                </div>
+
+                <button type="submit">Subscribe Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h4>About Us</h4>
+          <p>We are a Global-based creative agency helping brands grow through design and strategy.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <ul class="socials">
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <li><a href="https://twitter.com">Twitter</a></li>
+            <li><a href="https://instagram.com">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tyler Van Wyk. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
