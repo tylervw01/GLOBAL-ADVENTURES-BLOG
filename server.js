@@ -16,13 +16,18 @@ const Journey = require("./mongodb/Journey");
 const Comment = require("./mongodb/Comment");
 
 // Contact form route
-app.post("/contact", async (req, res) => {
+app.post('/contact', async (req, res) => {
   try {
-    const { name, email, message } = req.body;
-
-    if (!name || !email || !message) {
-      return res.status(400).json({ error: "All fields required" });
-    }
+    console.log(req.body); // 👀 see what’s coming in
+    const { name, email, subject, message } = req.body;
+    const user = new User({ name, email });
+    await user.save();
+    res.json({ success: true, msg: "Message received!" });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Server error" });
+  }
+});
 
     // Save as a "User" entry for now (or create a separate Contact model if you prefer)
     const user = new User({ name, email });
