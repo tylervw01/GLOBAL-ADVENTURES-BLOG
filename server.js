@@ -7,6 +7,8 @@ const mongoose = require("mongoose");
 const app = express();
 app.use(bodyParser.json());
 
+app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
+
 // Connect to MongoDB
 mongoose.connect("mongodb://localhost:27017/globalAdventures");
 
