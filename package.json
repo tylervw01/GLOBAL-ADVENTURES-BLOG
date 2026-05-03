@@ -1,0 +1,27 @@
+{
+  "name": "global-adventures-blog",
+  "version": "1.0.0",
+  "description": "A travel blog showcasing our top 3 favorite cities through stories, attractions, food, and culture. Built with semantic HTML as the foundation for future styling and interactivity.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylervw01/GLOBAL-ADVENTURES-BLOG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tylervw01/GLOBAL-ADVENTURES-BLOG/issues"
+  },
+  "homepage": "https://github.com/tylervw01/GLOBAL-ADVENTURES-BLOG#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1"
+  }
+}
